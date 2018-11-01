@@ -1,0 +1,22 @@
+.fll {
+  float: left;
+}
+
+.flr {
+  float: right;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+.table-item-img {
+  width: 80px;
+  height: 80px;
+}
